@@ -1,0 +1,27 @@
+# Global metadata
+baseUrl: "https://eddie-summers.com"
+languageCode: "en-uk"
+title: "Eddie Summers"
+
+# Sidebar navigation
+Menus:
+  main:
+    - Name: "GitHub"
+      URL: "https://github.com/esummers1"
+    - Name: "LinkedIn"
+      URL: "https://www.linkedin.com/in/eddiesummers"
+
+# Hyde theme settings
+# theme: "hyde"
+# params:
+#   description: " "
+#   themeColor: "theme-custom"
+
+# Terminal theme settings
+theme: "terminal"
+params:
+  themeColor: "orange"
+  showMenuItems: 4
+  showLanguageSelector: false
+  fullWidthTheme: false
+  centerTheme: true
