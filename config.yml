@@ -12,16 +12,7 @@ Menus:
       URL: "https://www.linkedin.com/in/eddiesummers"
 
 # Hyde theme settings
-# theme: "hyde"
-# params:
-#   description: " "
-#   themeColor: "theme-custom"
-
-# Terminal theme settings
-theme: "terminal"
+theme: "hyde"
 params:
-  themeColor: "orange"
-  showMenuItems: 4
-  showLanguageSelector: false
-  fullWidthTheme: false
-  centerTheme: true
+  description: " "
+  themeColor: "theme-custom"
