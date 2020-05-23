@@ -1,5 +1,5 @@
 ---
-date: 2019-07-26 11:00:00 +0000
+date: 2019-07-26 10:00:00 +0000
 title: "Java Lesson 17 - Error Handling, Part 1"
 summary: "Handling errors is an important part of any program. Wherever we interact with entities outside the program - databases, users, other systems, etc. - we will always need to handle errors."
 type: "post"
