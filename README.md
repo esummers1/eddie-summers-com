@@ -19,6 +19,8 @@ If you are making theme changes and are working in Chrome, disable caching in th
 
 ## :package: Build
 
+Delete `public/` to avoid stale files.
+
 ```bash
 hugo
 ```
