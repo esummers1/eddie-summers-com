@@ -2,20 +2,21 @@
 baseUrl: "https://hugo-test.eddie-summers.com/"
 languageCode: "en-uk"
 title: "Eddie Summers"
-
-# Sidebar navigation
-Menus:
-  main:
-    - Name: "GitHub"
-      URL: "https://github.com/esummers1"
-    - Name: "LinkedIn"
-      URL: "https://www.linkedin.com/in/eddiesummers"
-
-# Hyde theme settings
 theme: "hyde"
+
+# Hyde theme site params
 params:
   description: "Thoughts on programming, fitness and other things."
   themeColor: "theme-custom"
+  links:
+    linkedIn: "https://www.linkedin.com/in/eddiesummers"
+    gitHub: "https://github.com/esummers1"
+
+# Taxonomies
+# (tags & categories are default, but must be present if you want custom ones)
+taxonomies:
+  tag: "tags"
+  category: "categories"
 
 # Markup configuration
 markup:
