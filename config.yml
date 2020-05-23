@@ -14,5 +14,5 @@ Menus:
 # Hyde theme settings
 theme: "hyde"
 params:
-  description: " "
+  description: "Thoughts on programming, fitness and other things."
   themeColor: "theme-custom"
