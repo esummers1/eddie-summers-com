@@ -16,3 +16,11 @@ theme: "hyde"
 params:
   description: "Thoughts on programming, fitness and other things."
   themeColor: "theme-custom"
+
+# Markup configuration
+markup:
+
+  # Code highlighting
+  highlight:
+    codeFences: true
+    style: dracula
