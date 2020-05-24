@@ -6,8 +6,6 @@ categories: ["Projects"]
 splash: "/images/orbit-simulator.jpg"
 ---
 
-![Orbit Simulator](/images/orbit-simulator.jpg "Orbit Simulator")
-
 [Orbit Simulator](https://github.com/esummers1/orbit-simulator) is a two-dimensional physics sandbox. It uses a high physics framerate (decoupled from the slower rendering framerate) to compute the orbits of moons, planets and stars using real-world figures at high time accelerations.
 
 The player can focus the camera on different objects in the simulation, adjust the display scale and time acceleration factor, and 'fire' new objects into the simulation. These new bodies will be created using the average path and velocity of the mouse-drag, meaning they appear seamlessly and intuitively. The other objects in the simulation will feel the gravitational effects of the new object immediately.

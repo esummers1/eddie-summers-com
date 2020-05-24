@@ -6,8 +6,6 @@ categories: ["Projects"]
 splash: "/images/holy-guac.jpg"
 ---
 
-![Team Holy Guacamole](/images/holy-guac.jpg "Team Holy Guacamole")
-
 Google HashCode is an annual world-wide team programming competition. I entered it with three friends as team Holy Guacamole in 2019 and 2020.
 
 The problem in 2019 was to arrange photo objects into slideshows which were most 'interesting', according to a certain algorithm. Our solution started at the basic level - composing slideshows of photos in the order they were recevied - and advanced to attempting to group photos with popular 'tags' nearer each other, as such groupings were worth more points.

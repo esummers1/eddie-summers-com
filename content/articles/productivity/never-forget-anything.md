@@ -31,7 +31,10 @@ My choice for writing, viewing and managing notes is VS Code. There are excellen
 
 VS Code already has a Markdown Preview feature, which can sit beside a document you're working on and show you a live rendering, with synchronized scrolling and so on. Better yet, since almost every aspect of VS Code is configurable, you can get the preview pane looking just so: the right font, the right size, the right line spacing.
 
-Since it's designed first as a text/code editor, its features for navigating through files for text blow other note-taking apps out of the water. You can traverse the headings and subheadings in a Markdown file using the `Go to symbol in editor` action, or quickly jump to a file by name. The usual ability to find/replace text across files using plain search terms or regular expressions is a given. If you like to use Vim or Emacs, there are emulator/keymap plugins avaiable.
+Since it's designed first as a text/code editor, its features for navigating through files for text blow other note-taking apps out of the water. You can traverse the headings and subheadings in a Markdown file using the `Go to symbol in editor` action, or quickly jump to a file by name. The usual ability to find/replace text across files using plain search terms or regular expressions is a given. If you like to use Vim or Emacs, there are emulator/keymap plugins avaiable. Its colour scheme customizations are also very powerful, which I find a big plus.
+
+![Markdown notes in VS Code](/images/markdown-notes.png "Markdown notes in VS Code")
+*I've found it very handy for studying*
 
 ## Source Control
 
