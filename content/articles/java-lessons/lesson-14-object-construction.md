@@ -16,7 +16,7 @@ class Dog {
         this.name = name;
     }
 
-    create(String name) {
+    static Dog create(String name) {
         return new Dog(name);
     }
 }
