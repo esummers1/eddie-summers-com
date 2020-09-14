@@ -1,5 +1,7 @@
 # Website
 
+![Deployment](https://github.com/esummers1/eddie-summers-com/workflows/Deployment/badge.svg)
+
 Statically-generated website for [eddie-summers.com](https://eddie-summers.com).
 
 ## :clipboard: Pre-Requisites
@@ -27,4 +29,4 @@ hugo
 
 ## :pray: Deploy
 
-Deploy `public/` to your remote root.
+Deployment will occur on each push to master, but if you wish to deploy manually, push the contents of `public/` to the remote root.
