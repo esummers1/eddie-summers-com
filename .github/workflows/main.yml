@@ -1,0 +1,24 @@
+name: CI / CD
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v2
+
+      - name: Hugo setup
+        uses: peaceiris/actions-hugo@v2.4.12
+
+      - name: Hugo build
+        run:  hugo
