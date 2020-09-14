@@ -4,3 +4,5 @@
 - Devise a good way to move between articles in a category/sequence
 - Think of a sensible way to add and display multiple categories
 - Truncate long article names in list view when in a narrow viewport
+- Figure out a way to dynamically exclude posts of some kind from feed
+  - Tags?
