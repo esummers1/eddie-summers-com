@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: Build
+    name: Deploy
     runs-on: ubuntu-latest
 
     steps:
@@ -21,17 +21,6 @@ jobs:
 
       - name: Hugo build
         run:  hugo
-
-  deploy:
-    needs: build
-    name: Deploy
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out source
-        uses: actions/checkout@v2
-        with:
-          submodules: true
 
       - name: Deploy to server
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
