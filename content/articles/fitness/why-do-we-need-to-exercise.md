@@ -5,8 +5,6 @@ summary: "Hopefully it's common knowledge by now that exercise is not only benef
 categories: ["Fitness"]
 ---
 
-TEST
-
 Hopefully it's common knowledge by now that exercise is not only beneficial but essential for your health. There are many places you can learn about the benefits of this kind of exercise or that kind, but to my mind something that's rarely well explained is why we actually need to exercise at all.
 
 ## Adaptability
