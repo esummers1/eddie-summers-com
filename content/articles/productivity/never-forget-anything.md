@@ -27,7 +27,7 @@ Plain text has a big advantage over proprietary solutions. If you want to migrat
 
 ## Visual Studio Code
 
-My choice for writing, viewing and managing notes is VS Code. There are excellent extensions for working with Markdown - specifically Yu Zhang's [**Markdown All in One**](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one), David Anson's [**markdownlint**](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) and Matt Bierner's necessary [**Markdown Emoji**](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji), to name a few.
+My choice for writing, viewing and managing notes is VS Code. There are excellent extensions for working with Markdown - specifically Yu Zhang's [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one), David Anson's [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) and Matt Bierner's necessary [Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji), to name a few.
 
 VS Code already has a Markdown Preview feature, which can sit beside a document you're working on and show you a live rendering, with synchronized scrolling and so on. Better yet, since almost every aspect of VS Code is configurable, you can get the preview pane looking just so: the right font, the right size, the right line spacing.
 
