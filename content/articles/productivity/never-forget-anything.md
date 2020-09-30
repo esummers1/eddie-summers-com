@@ -76,15 +76,21 @@ You will note the inclusion of my custom `markdown.css` file, included in the wo
 
 ```css
 .vscode-body p {
-  margin-top: 0.6em;
+  margin-top: 0.3em;
+}
+
+.vscode-body h1 {
+  font-weight: bold;
 }
 
 .vscode-body h2 {
   margin-top: 1.1em;
+  font-weight: bold;
 }
 
 .vscode-body h3 {
   margin-top: 1em;
+  font-weight: bold;
 }
 
 .vscode-body h4 {
