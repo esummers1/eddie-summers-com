@@ -1,0 +1,30 @@
+{{ define "main" -}}
+  <!-- List view, for displaying a list of pages in a taxonomy. -->
+
+  <!-- Title of _index file -->
+  <h1>{{ .Title }}</h1>
+
+  <!-- Contents of _index file -->
+  {{ .Content }}
+
+  <ul class="posts">
+    {{ range .Data.Pages -}}
+      <li>
+        <span>
+
+          <!-- Title -->
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+
+          <!-- Date -->
+          <time
+            class="pull-right"
+            datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
+            {{ .Date.Format "2 Jan 2006" }}
+          </time>
+
+        </span>
+      </li>
+    {{- end }}
+  </ul>
+
+{{- end }}

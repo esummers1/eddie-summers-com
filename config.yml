@@ -2,14 +2,14 @@
 baseUrl: "https://eddie-summers.com/"
 languageCode: "en-uk"
 title: "Eddie Summers"
-theme: "hyde"
+theme: "vulcan"
 googleAnalytics: "UA-59854355-2"
 
 # Hyde theme site params
 params:
   description: "Thoughts on programming, fitness and other things."
   themeColor: "theme-custom"
-  links:
+  socialLinks:
     linkedIn: "https://www.linkedin.com/in/eddiesummers"
     gitHub: "https://github.com/esummers1"
 
