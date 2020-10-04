@@ -1,10 +1,13 @@
-<aside>
-  <div>
+<aside class="sidebar">
+  <div class="container sidebar-sticky">
 
     <!-- Title and subtitle -->
-    <div>
-      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
-      <p>
+    <div class="sidebar-about">
+      <a href="{{ .Site.BaseURL }}">
+        <h1>{{ .Site.Title }}</h1>
+      </a>
+
+      <p class="lead">
         {{ .Site.Params.description }}
       </p>
     </div>
@@ -12,7 +15,7 @@
     <!-- Category and page links -->
     <!-- TODO: add these dynamically from site params -->
     <nav>
-      <ul>
+      <ul class="sidebar-nav">
         <li><a href="{{ .Site.BaseURL }}">Home</a></li>
         <li><a href="{{ .Site.BaseURL }}about/">About</a></li>
         <li><a href="{{ .Site.BaseURL }}categories/projects/">Projects</a></li>
@@ -25,7 +28,7 @@
     </nav>
 
     <!-- Social link icons -->
-    <span>
+    <span class="social-links">
       <a href="{{.Site.Params.links.gitHub}}"><i class="fa fa-github-square"></i></a>
       <a href="{{.Site.Params.links.linkedIn}}"><i class="fa fa-linkedin-square"></i></a>
     </span>

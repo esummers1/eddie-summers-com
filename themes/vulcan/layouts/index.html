@@ -1,7 +1,7 @@
 {{ define "main" -}}
   <!-- Home page template -->
 
-  <div>
+  <div class="posts">
     {{ range .Site.RegularPages -}}
 
       <!-- Exclude special pages, which lack dates -->
@@ -10,10 +10,10 @@
         <!-- Exclude Java Lessons -->
         {{ if not (isset .Params "categories") | or (not (in .Params.Categories "Java Lessons")) }}
 
-          <article>
+          <article class="post">
 
             <!-- Title and link to post -->
-            <h1>
+            <h1 class="post-title">
               <a href="{{ .Permalink }}">{{ .Title }}</a>
             </h1>
 
@@ -21,13 +21,17 @@
             {{ if isset .Params "categories" }}
               {{ with index .Params.Categories 0 }}
                 <h4>
-                  <a href="{{ "categories/" | relLangURL }}{{ index . | urlize}}">{{ . }}</a>
+                  <a href="{{ "categories/" | relLangURL }}{{ index . | urlize}}">
+                    {{ . }}
+                  </a>
                 </h4>
               {{ end }}
             {{ end }}
 
             <!-- Render date nicely -->
-            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
+            <time
+              class="post-date"
+              datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
               {{ .Date.Format "2 January 2006" }}
             </time>
 
@@ -35,7 +39,9 @@
             {{ .Summary }}
             {{ if .Truncated }}
             <div>
-              <a href="{{ .RelPermalink }}">Read More…</a>
+              <a href="{{ .RelPermalink }}">
+                Read More…
+              </a>
             </div>
             {{ end }}
 
