@@ -1,1 +1,9 @@
 name: "Vulcan"
+
+author:
+  name: "Eddie Summers"
+  homepage: "https://eddie-summers.com"
+
+original:
+  author: "spf13"
+  homepage: http://spf13.com"
