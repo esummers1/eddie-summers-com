@@ -1,0 +1,24 @@
+<!-- Base template, from which others extend. -->
+
+<!-- Include page header -->
+{{ partial "head.html" . }}
+
+<body>
+
+  <!-- Include sidebar -->
+  {{ partial "sidebar.html" . }}
+
+  <!-- Page content -->
+  <main>
+    {{ block "main" . -}}{{- end }}
+  </main>
+
+  <!-- Include Google Analytics -->
+  {{ if not .Site.IsServer }}
+    {{ template "_internal/google_analytics_async.html" . }}
+  {{ end }}
+
+</body>
+
+<!-- Close HTML tag opened by the header -->
+</html>

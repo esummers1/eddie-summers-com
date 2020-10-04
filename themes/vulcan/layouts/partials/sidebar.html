@@ -1,0 +1,41 @@
+<aside>
+  <div>
+
+    <!-- Title and subtitle -->
+    <div>
+      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+      <p>
+        {{ .Site.Params.description }}
+      </p>
+    </div>
+
+    <!-- Category and page links -->
+    <!-- TODO: add these dynamically from site params -->
+    <nav>
+      <ul>
+        <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+        <li><a href="{{ .Site.BaseURL }}about/">About</a></li>
+        <li><a href="{{ .Site.BaseURL }}categories/projects/">Projects</a></li>
+        <br />
+        Articles
+        <li><a href="{{ .Site.BaseURL }}categories/fitness/">Fitness</a></li>
+        <li><a href="{{ .Site.BaseURL }}categories/productivity/">Productivity</a></li>
+        <li><a href="{{ .Site.BaseURL }}categories/java-lessons/">Java Lessons</a></li>
+      </ul>
+    </nav>
+
+    <!-- Social link icons -->
+    <span>
+      <a href="{{.Site.Params.links.gitHub}}"><i class="fa fa-github-square"></i></a>
+      <a href="{{.Site.Params.links.linkedIn}}"><i class="fa fa-linkedin-square"></i></a>
+    </span>
+
+    <!-- Copyright message -->
+    <p>
+      {{ with .Site.Params.copyright }}
+        {{.}}
+        {{ else }}&copy; {{ now.Format "2006"}} Eddie Summers. All rights reserved.
+      {{end}}
+    </p>
+  </div>
+</aside>

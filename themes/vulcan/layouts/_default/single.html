@@ -1,0 +1,35 @@
+<!-- Page view, for a single content page. -->
+
+{{ define "main" -}}
+<div class="post">
+
+  <!-- Title -->
+  <h1>{{ .Title }}</h1>
+
+  <!-- Display and link to post's first category, if it has any -->
+  <!-- (we may want to make this list-compatible later) -->
+  {{ if isset .Params "categories" }}
+    {{ with index .Params.Categories 0 }}
+      <h4>
+        <a href="{{ "categories/" | relLangURL }}{{ index . | urlize}}">{{ . }}</a>
+      </h4>
+    {{ end }}
+  {{ end }}
+
+  <!-- Render date nicely, if there is one -->
+  {{ if not .Date.IsZero }}
+    <time datetime={{ .Date.Format "2006-01-02T15:04:05Z0700" }}>
+      {{ .Date.Format "2 January 2006" }}
+    </time>
+  {{ end }}
+
+  <!-- Render splash image, if present -->
+  {{ if isset .Params "splash" }}
+    <img src="{{ .Params.splash }}" />
+  {{ end }}
+
+  <!-- Render Markdown content to HTML -->
+  {{ .Content }}
+</div>
+
+{{- end }}
