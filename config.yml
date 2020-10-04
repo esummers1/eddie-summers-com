@@ -7,8 +7,7 @@ googleAnalytics: "UA-59854355-2"
 
 # Hyde theme site params
 params:
-  description: "Thoughts on programming, fitness and other things."
-  themeColor: "theme-custom"
+  description: "Thoughts on programming, fitness, and other things."
   socialLinks:
     linkedIn: "https://www.linkedin.com/in/eddiesummers"
     gitHub: "https://github.com/esummers1"
