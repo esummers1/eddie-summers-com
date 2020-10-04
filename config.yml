@@ -9,7 +9,7 @@ googleAnalytics: "UA-59854355-2"
 params:
   description: "Thoughts on programming, fitness and other things."
   themeColor: "theme-custom"
-  links:
+  socialLinks:
     linkedIn: "https://www.linkedin.com/in/eddiesummers"
     gitHub: "https://github.com/esummers1"
 
