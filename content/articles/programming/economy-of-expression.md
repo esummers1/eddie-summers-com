@@ -62,11 +62,11 @@ Java's huge advantage over Apex of supporting higher-order functions allows it t
 
 I would argue that even though the Java example is much-improved, the Kotlin code is so expressive that it almost reads like a single sentence. The syntax it lacks compared to the Java equivalent is purely boilerplate or logistical, meaning more of what remains expresses the programmer's intent. Comparing the Kotlin example with the Apex example is particularly eye-opening. Spare a thought for Apex developers who can't implement even rudimentary type-safe streams, due to the lack of generics support!
 
-### Task 2 - Object Construction
+### Task 2 - Class Definition
 
 For this exercise, Apex and Java are essentially the same, so I will just use Java.
 
-Imagine we want to declare a type with the following:
+Imagine we want to declare a class with the following:
 
 - An immutable field that is always required
 - A mutable field that is always required
