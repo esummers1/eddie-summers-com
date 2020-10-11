@@ -4,52 +4,48 @@
   <div class="posts">
     {{ range .Site.RegularPages -}}
 
-      <!-- Exclude special pages, which lack dates -->
-      {{ if not .Date.IsZero }}
+      <!-- Exclude pages marked as Hidden -->
+      {{ if not (isset .Params "hidden") | or (not (eq .Params.Hidden true)) }}
 
-        <!-- Exclude Java Lessons -->
-        {{ if not (isset .Params "categories") | or (not (in .Params.Categories "Java Lessons")) }}
+        <article class="post">
 
-          <article class="post">
+          <!-- Title and link to post -->
+          <h1 class="post-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </h1>
 
-            <!-- Title and link to post -->
-            <h1 class="post-title">
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </h1>
-
-            <!-- Display and link to post's (first) category -->
-            {{ if isset .Params "categories" }}
-              {{ with index .Params.Categories 0 }}
-                <h4>
-                  <a href="{{ "categories/" | relLangURL }}{{ index . | urlize}}">
-                    {{ . }}
-                  </a>
-                </h4>
-              {{ end }}
+          <!-- Display and link to post's (first) category -->
+          {{ if isset .Params "categories" }}
+            {{ with index .Params.Categories 0 }}
+              <h4>
+                <a href="{{ "categories/" | relLangURL }}{{ index . | urlize}}">
+                  {{ . }}
+                </a>
+              </h4>
             {{ end }}
+          {{ end }}
 
-            <!-- Render date nicely -->
-            <time
-              class="post-date"
-              datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
-              {{ .Date.Format "2 January 2006" }}
-            </time>
+          <!-- Render date nicely -->
+          <time
+            class="post-date"
+            datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
+            {{ .Date.Format "2 January 2006" }}
+          </time>
 
-            <!-- Summary, truncated if too long -->
-            {{ .Summary }}
-            {{ if .Truncated }}
-            <div>
-              <a href="{{ .RelPermalink }}">
-                Read More…
-              </a>
-            </div>
-            {{ end }}
+          <!-- Summary, truncated if too long -->
+          {{ .Summary }}
+          {{ if .Truncated }}
+          <div>
+            <a href="{{ .RelPermalink }}">
+              Read More…
+            </a>
+          </div>
+          {{ end }}
 
-            <!-- Horizontal rule, to separate from next item -->
-            <hr />
+          <!-- Horizontal rule, to separate from next item -->
+          <hr />
 
-          </article>
-        {{ end }}
+        </article>
       {{ end }}
     {{- end }}
   </div>

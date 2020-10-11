@@ -6,6 +6,18 @@
     <!-- Title -->
     <h1>{{ .Title }}</h1>
 
+    <!-- Display and link to post's series, if it has one -->
+    {{ if isset .Params "series" }}
+      {{ with .Params.Series }}
+      <h4>
+        Series:
+        <a href="{{ "series/" | relLangURL }}{{ index . | urlize}}">
+          {{ . }}
+        </a>
+      </h4>
+      {{ end }}
+    {{ end }}
+
     <!-- Display and link to post's first category, if it has any -->
     <!-- (we may want to make this list-compatible later) -->
     {{ if isset .Params "categories" }}
