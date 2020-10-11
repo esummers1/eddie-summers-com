@@ -115,11 +115,7 @@ public class Dummy {
 And now, the Kotlin version:
 
 ```kotlin
-class Dummy(
-  private val immutable: Any,
-  private var mutable: Any,
-  private var optional: Any = "Default"
-)
+class Dummy(val immutable: Any, var mutable: Any, var optional: Any = "Default")
 ```
 
 There are a couple of things to note here. One, this code is much easier to write. Yes, modern IDEs can generate things like getters and setters for you, but shouldn't we let the compiler do that instead, as Kotlin's does? Two, the Kotlin version is not only equivalent, but easier to use from other Kotlin code. Kotlin allows default values for function parameters (including constructors, as we have just seen), but also lets you supply arguments in any order if you name them:
