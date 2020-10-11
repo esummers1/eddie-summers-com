@@ -1,6 +1,6 @@
 ---
 date: 2019-05-24 11:00:00 +0000
-title: "Java Lesson 7 - Inheritance"
+title: "Lesson 7 - Inheritance"
 summary: "Java is an Object-Oriented Programming language. One of the key notions of OO languages is **polymorphism**. This means that objects can take on many forms, or more specifically that an object of some type may be acceptable where other types are specified. One mechanism for this is inheritance."
 type: "post"
 categories: ["Java Lessons"]

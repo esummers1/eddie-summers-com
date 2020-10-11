@@ -1,6 +1,6 @@
 ---
 date: 2019-07-25 10:00:00 +0000
-title: "Java Lesson 16 - Polymorphism"
+title: "Lesson 16 - Polymorphism"
 summary: "We've discussed ideas such as defining your own objects, inheritance and abstraction. All of these are tools for achieving the primary benefit of an object-oriented language like Java: polymorphism."
 type: "post"
 categories: ["Java Lessons"]

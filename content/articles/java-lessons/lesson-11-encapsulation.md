@@ -1,6 +1,6 @@
 ---
 date: 2019-06-04 17:00:00 +0000
-title: "Java Lesson 11 - Encapsulation"
+title: "Lesson 11 - Encapsulation"
 summary: "This is a lesson on style and good practice rather than syntax. We saw in the last lesson how you can control access to the members of a class. You should try as much as possible to make use of this to encapsulate different parts of your program. This idea was also introduced last lesson - the ideal is a situation where the different moving parts of the application only communicate through agreed channels."
 type: "post"
 categories: ["Java Lessons"]

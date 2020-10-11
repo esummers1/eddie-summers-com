@@ -1,6 +1,6 @@
 ---
 date: 2019-07-24 12:00:00 +0000
-title: "Java Lesson 15 - Comments"
+title: "Lesson 15 - Comments"
 summary: "Most people can learn to write a program which does something. The real challenge is to design it so that it's easy to add new features and behaviour. The first step in accomplishing this is making your code easier for other people to understand, and your most basic weapon here is the comment."
 type: "post"
 categories: ["Java Lessons"]

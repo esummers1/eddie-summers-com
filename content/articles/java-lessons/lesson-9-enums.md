@@ -1,6 +1,6 @@
 ---
 date: 2019-05-26 18:00:00 +0000
-title: "Java Lesson 9 - Enums"
+title: "Lesson 9 - Enums"
 summary: "Enums - enumerations - are a way of declaring constants. They allow you to define a set of values that the enum type can have."
 type: "post"
 categories: ["Java Lessons"]

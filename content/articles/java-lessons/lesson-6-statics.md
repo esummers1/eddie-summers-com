@@ -1,6 +1,6 @@
 ---
 date: 2019-05-24 10:00:00 +0000
-title: "Java Lesson 6 - Static Fields and Methods"
+title: "Lesson 6 - Static Fields and Methods"
 summary: "In the last lesson we saw how to define **instance** fields and methods for objects. Recall that fields are declared in the class outside of any method - by convention they are grouped at the top. A field such as we saw last time is a property of the specific object it belongs to. If a Car class has a `colour` String field, and we have two Car objects with different values for `colour`, these values belong to their respective Car objects. Similarly if we have some behaviour for a Car, e.g. `honk()`, this is invoked on the object itself."
 type: "post"
 categories: ["Java Lessons"]

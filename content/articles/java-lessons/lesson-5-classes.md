@@ -1,6 +1,6 @@
 ---
 date: 2019-05-23 10:00:00 +0000
-title: "Java Lesson 5 - Classes and Objects"
+title: "Lesson 5 - Classes and Objects"
 summary: "As previously covered, we can create our own objects in Java. A **class** is in essence a blueprint for creating objects. Classes can define data their objects will store - **fields** - and provide behaviour - **methods**, in any combination."
 type: "post"
 categories: ["Java Lessons"]

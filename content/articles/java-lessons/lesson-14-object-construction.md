@@ -1,6 +1,6 @@
 ---
 date: 2019-06-06 12:00:00 +0000
-title: "Java Lesson 14 - Object Construction"
+title: "Lesson 14 - Object Construction"
 summary: "Usually, we create objects using their constructors. However there is an alternative mechanism - the **static factory method**"
 type: "post"
 categories: ["Java Lessons"]
