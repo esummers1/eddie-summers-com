@@ -254,6 +254,22 @@ pre code {
   font-weight: bold;
 }
 
+.list-row {
+  white-space: nowrap;
+  display: flex;
+}
+
+.list-title {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list-date {
+  margin-left: 0.6rem;
+}
+
 /*******************************************************************************
  * Sidebar
  ******************************************************************************/

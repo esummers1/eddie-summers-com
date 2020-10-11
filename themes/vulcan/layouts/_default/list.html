@@ -10,14 +10,18 @@
   <ul class="posts">
     {{ range .Data.Pages -}}
       <li>
-        <span>
+        <span class="list-row">
 
           <!-- Title -->
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <a
+            class="list-title"
+            href="{{ .Permalink }}">
+            {{ .Title }}
+          </a>
 
           <!-- Date -->
           <time
-            class="pull-right"
+            class="list-date"
             datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
             {{ .Date.Format "2 Jan 2006" }}
           </time>
