@@ -3,7 +3,8 @@ date: 2019-06-06 11:00:00 +0000
 title: "Lesson 13 - Abstract Classes"
 summary: "In the previous lesson we looked at interfaces. Interfaces allow you to specify a contract that an object must honour to be considered of that interface's type. This lets us compose the behaviour of our objects in a polymorphic manner, but means we must implement this behaviour in every object that wants to honour the interface."
 type: "post"
-categories: ["Java Lessons"]
+series: "Java Lessons"
+hidden: true
 ---
 
 In the previous lesson we looked at interfaces. Interfaces allow you to specify a contract that an object must honour to be considered of that interface's type. This lets us compose the behaviour of our objects in a polymorphic manner, but means we must implement this behaviour in every object that wants to honour the interface.

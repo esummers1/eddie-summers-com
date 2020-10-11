@@ -3,7 +3,8 @@ date: 2019-05-26 19:00:00 +0000
 title: "Lesson 10 - Scope"
 summary: "Scope - and hence, access control - is a big and important topic. A good program that contains many moving parts should keep them as separate from each other as possible, and have them only communicate with each other using agreed channels."
 type: "post"
-categories: ["Java Lessons"]
+series: "Java Lessons"
+hidden: true
 ---
 
 Scope - and hence, access control - is a big and important topic. A good program that contains many moving parts should keep them as separate from each other as possible, and have them only communicate with each other using agreed channels.

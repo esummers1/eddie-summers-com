@@ -3,7 +3,8 @@ date: 2019-07-26 14:00:00 +0000
 title: "Lesson 20 - Project Structure"
 summary: "Java projects consist of **packages**. A package is represented in your filesystem as a folder, but from the compiler's point of view it holds a \"unit\" of the project, i.e. several related classes."
 type: "post"
-categories: ["Java Lessons"]
+series: "Java Lessons"
+hidden: true
 ---
 
 Java projects consist of **packages**. A package is represented in your filesystem as a folder, but from the compiler's point of view it holds a "unit" of the project, i.e. several related classes.

@@ -3,7 +3,8 @@ date: 2019-07-26 11:00:00 +0000
 title: "Lesson 18 - Error Handling, Part 2"
 summary: "Last time, we looked at the basics of error handling in Java. But we've only just scratched the surface. There are three more features to examine: compile-time error validation, custom Exceptions, and try-with-resources."
 type: "post"
-categories: ["Java Lessons"]
+series: "Java Lessons"
+hidden: true
 ---
 
 Last time, we looked at the basics of error handling in Java. But we've only just scratched the surface. There are three more features to examine: compile-time error validation, custom Exceptions, and try-with-resources.

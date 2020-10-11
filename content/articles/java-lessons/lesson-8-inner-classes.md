@@ -3,7 +3,8 @@ date: 2019-05-26 17:00:00 +0000
 title: "Lesson 8 - Inner Classes"
 summary: "Sometimes we might have a use for an object that only makes sense as an \"inner\" object of another. This would be useful if there is a strong logical coupling between the two, i.e. they make sense together and one is not often used without the other."
 type: "post"
-categories: ["Java Lessons"]
+series: "Java Lessons"
+hidden: true
 ---
 
 Sometimes we might have a use for an object that only makes sense as an "inner" object of another. This would be useful if there is a strong logical coupling between the two, i.e. they make sense together and one is not often used without the other.

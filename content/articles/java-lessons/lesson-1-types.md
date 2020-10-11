@@ -3,7 +3,8 @@ date: 2019-05-10 20:00:00 +0000
 title: "Lesson 1 - Types and Variables"
 summary: "In Java, there are two kinds of types: **primitives** and **objects**. The chief difference is that objects can have behaviour (methods) and can be defined; primitives do not have behaviour and are baked in."
 type: "post"
-categories: ["Java Lessons"]
+series: "Java Lessons"
+hidden: true
 ---
 
 In Java, there are two kinds of types: **primitives** and **objects**. The chief difference is that objects can have behaviour (methods) and can be defined; primitives do not have behaviour and are baked in.

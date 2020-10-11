@@ -3,7 +3,8 @@ date: 2019-06-04 18:00:00 +0000
 title: "Lesson 12 - Interfaces"
 summary: "An **interface** in Java is a special kind of type. It is declared similarly to a class, but while a class specifies the data and behaviour of an object, an interface in the abstract represents a contract that an object that **implements** it will honour."
 type: "post"
-categories: ["Java Lessons"]
+series: "Java Lessons"
+hidden: true
 ---
 
 An **interface** in Java is a special kind of type. It is declared similarly to a class, but while a class specifies the data and behaviour of an object, an interface in the abstract represents a contract that an object that **implements** it will honour. For example:
