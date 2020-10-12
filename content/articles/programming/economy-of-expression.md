@@ -24,16 +24,11 @@ Let's imagine we have some Animals, and we want to list the ages of all the gori
 
 ```java
 public List<Integer> getGorillaAgesFrom(List<Animal> animals) {
-  List<Animal> gorillas = new List<Animal>();
-  for (Animal animal : animals) {
-    if (animal.species ==  'Gorilla') {
-      gorillas.add(animal);
-    }
-  }
-
   List<Integer> ages = new List<Integer>();
-  for (Animal gorilla : gorillas) {
-    ages.add(gorilla.age);
+  for (Animal animal : animals) {
+    if (animal.species == 'Gorilla') {
+      ages.add(animal.age);
+    }
   }
   return ages;
 }
@@ -58,7 +53,7 @@ fun getGorillaAgesFrom(animals: List<Animal>): List<Int> {
 }
 ```
 
-Java's huge advantage over Apex of supporting higher-order functions allows it to express the same idea as the Apex code in a much neater manner. Kotlin, which shortcuts traditional Java getters and setters using its property convention, and whose `Collections` implementation does away with the need for Java's calls to `stream()` and `collect()`, goes even further.
+Java's huge advantage over Apex of supporting higher-order functions allows it to express the same idea as the Apex code in a neater manner. Kotlin, which shortcuts traditional Java getters and setters using its property convention, and whose `Collections` implementation does away with the need for Java's calls to `stream()` and `collect()`, goes even further.
 
 I would argue that even though the Java example is much-improved, the Kotlin code is so expressive that it almost reads like a single sentence. The syntax it lacks compared to the Java equivalent is purely boilerplate or logistical, meaning more of what remains expresses the programmer's intent. Comparing the Kotlin example with the Apex example is particularly eye-opening. Spare a thought for Apex developers who can't implement even rudimentary type-safe streams, due to the lack of generics support!
 
