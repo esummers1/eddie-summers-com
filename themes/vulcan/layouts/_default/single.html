@@ -46,5 +46,10 @@
 
     <!-- Render Markdown content to HTML -->
     {{ .Content }}
+
+    <!-- Include series links, if part of one -->
+    {{ if isset .Params "series" }}
+      {{ partial "series_link.html" . }}
+    {{ end }}
   </div>
 {{- end }}
