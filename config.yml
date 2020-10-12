@@ -17,6 +17,8 @@ params:
 taxonomies:
   tag: "tags"
   category: "categories"
+  series: "series"
+  hidden: "hidden"
 
 # Markup configuration
 markup:

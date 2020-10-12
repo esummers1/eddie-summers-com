@@ -3,7 +3,8 @@ date: 2019-07-26 12:00:00 +0000
 title: "Lesson 19 - Unit Tests"
 summary: "Testing a program - i.e. checking that it both works correctly and has all the capabilities it should - is of utmost importance, especially in professional development. Tests range from the most broad level (manual testing) to the finest (unit testing of individual functions). We will discuss automated unit and integration tests."
 type: "post"
-categories: ["Java Lessons"]
+series: "Java Lessons"
+hidden: true
 ---
 
 Testing a program - i.e. checking that it both works correctly and has all the capabilities it should - is of utmost importance, especially in professional development. Tests range from the most broad level (manual testing) to the finest (unit testing of individual functions). We will discuss automated unit and integration tests.

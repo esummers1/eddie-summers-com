@@ -1,6 +1,7 @@
 ---
 title: "About"
 splash: "/images/british-classic.jpg"
+hidden: true
 ---
 
 *Opening squat at the Junior British Classic in 2015*

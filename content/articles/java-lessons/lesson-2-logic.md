@@ -3,7 +3,8 @@ date: 2019-05-10 21:00:00 +0000
 title: "Lesson 2 - Operators and Branching Logic"
 summary: "Java, like all good programming languages, has the usual set of mathematical and logical operators. We can use logical operators to determine which branch of a program is executed."
 type: "post"
-categories: ["Java Lessons"]
+series: "Java Lessons"
+hidden: true
 ---
 
 Java, like all good programming languages, has the usual set of mathematical and logical operators. We can use logical operators to determine which branch of a program is executed.

@@ -4,6 +4,7 @@ title: "How to Never Forget Anything"
 summary: "How I have attained note-taking perfection, and am finally at peace."
 type: "post"
 categories: ["Productivity"]
+series: "Note Taking"
 ---
 
 I have struggled for many years with how best to do and record things like the following:

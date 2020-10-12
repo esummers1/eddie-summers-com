@@ -1,0 +1,70 @@
+<!-- Adapted from the following page: -->
+<!-- http://www.joesacher.com/blog/2017/08/03/implementing-series-in-hugo/ -->
+
+<!-- Add temporary variables -->
+{{ $.Scratch.Add "currentPageNumber" 1 }}
+{{ $.Scratch.Add "totalPageNumber" 0 }}
+
+<!-- Find previous article -->
+<!-- (This could probably be combined with the next block) -->
+{{ range where .Site.RegularPages.ByDate "Params.series" .Params.series }}
+  {{ $.Scratch.Add "totalPageNumber" 1 }}
+  {{ if gt $.Date.Unix .Date.Unix }}
+    {{ $.Scratch.Add "currentPageNumber" 1 }}
+    {{ $.Scratch.Set "previousLink" .Permalink }}
+    {{ $.Scratch.Set "previousTitle" .Title }}
+  {{ end }}
+{{ end }}
+
+<!-- Find next article -->
+{{ range where .Site.RegularPages.ByDate.Reverse "Params.series" .Params.series }}
+  {{ $.Scratch.Set "firstLink" .Permalink }}
+  {{ if lt $.Date.Unix .Date.Unix }}
+    {{ $.Scratch.Set "nextLink" .Permalink }}
+    {{ $.Scratch.Set "nextTitle" .Title }}
+  {{ end }}
+{{ end }}
+
+<!-- Only show anything if we have a next or previous link to show -->
+{{ if or ($.Scratch.Get "nextLink") ($.Scratch.Get "previousLink") }}
+  <hr/>
+
+  <!-- First line: say where we are in series -->
+  <p>
+    Part {{ $.Scratch.Get "currentPageNumber" }} of {{ $.Scratch.Get "totalPageNumber" }} in the
+    <a href="{{ .Site.BaseURL }}series/{{ .Params.series | urlize }}">
+      <b>{{ .Params.series }}</b>
+    </a> series.
+  </p>
+
+  <!-- Second line: provide navigation around series -->
+  <p>
+    {{ if $.Scratch.Get "previousLink" }}
+
+      <!-- If this is not the first article, show a link to the first -->
+      {{ if ne ($.Scratch.Get "previousLink") ($.Scratch.Get "firstLink") }}
+          <a href="{{ $.Scratch.Get "firstLink" }}">First Article</a>&nbsp;&nbsp;|&nbsp;
+      {{ end }}
+
+      <!-- Link to previous article -->
+      Previous:
+      <a href="{{ $.Scratch.Get "previousLink" }}">
+        {{ $.Scratch.Get "previousTitle" }}
+      </a>
+
+    {{ end }}
+
+    <!-- Show pipe for separator if we have forward and backward links -->
+    {{ if and ($.Scratch.Get "nextLink") ($.Scratch.Get "previousLink") }}
+      &nbsp;|&nbsp;
+    {{ end }}
+
+    <!-- Link to next article -->
+    {{ if $.Scratch.Get "nextLink" }}
+      Next:
+      <a href="{{ $.Scratch.Get "nextLink" }}">
+        {{ $.Scratch.Get "nextTitle" }}
+      </a>
+    {{ end }}
+  </p>
+{{ end }}

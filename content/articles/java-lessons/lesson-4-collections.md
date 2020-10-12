@@ -3,7 +3,8 @@ date: 2019-05-17 20:00:00 +0000
 title: "Lesson 4 - Collections"
 summary: "So far we've seen two ways to store information in our programs - **primitives** and **objects**. If we want to store groups of these pieces of data, we need to use collections."
 type: "post"
-categories: ["Java Lessons"]
+series: "Java Lessons"
+hidden: true
 ---
 
 So far we've seen two ways to store information in our programs - **primitives** and **objects**. If we want to store groups of these pieces of data, we need to use collections.

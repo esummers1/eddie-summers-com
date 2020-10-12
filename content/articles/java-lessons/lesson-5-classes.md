@@ -3,7 +3,8 @@ date: 2019-05-23 10:00:00 +0000
 title: "Lesson 5 - Classes and Objects"
 summary: "As previously covered, we can create our own objects in Java. A **class** is in essence a blueprint for creating objects. Classes can define data their objects will store - **fields** - and provide behaviour - **methods**, in any combination."
 type: "post"
-categories: ["Java Lessons"]
+series: "Java Lessons"
+hidden: true
 ---
 
 As previously covered, we can create our own objects in Java. A **class** is in essence a blueprint for creating objects. Classes can define data their objects will store - **fields** - and provide behaviour - **methods**, in any combination. Each class should be in its own `.java` file, where the name of the file is the same as the name of the class, and have a capitalized name:
