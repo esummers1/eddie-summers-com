@@ -5,7 +5,7 @@ title: "Eddie Summers"
 theme: "vulcan"
 googleAnalytics: "UA-59854355-2"
 
-# Hyde theme site params
+# Theme site params
 params:
   description: "Thoughts on programming, fitness, and other things."
   socialLinks:
