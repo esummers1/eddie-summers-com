@@ -26,5 +26,5 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: public
-          git-ftp-args: --insecure
+          server-dir: main/
+          local-dir: public/
