@@ -6,7 +6,7 @@ categories: ["Projects"]
 splash: "/images/herding-cats.png"
 ---
 
-[Herding Cats](https://github.com/Danjb1/gmtk-game-jam-2020) is a browser game created for the [GMTK Game Jam 2020](https://itch.io/jam/gmtk-2020), a 48-hour game-making hackathon. I worked on this game as part of Team Cat Herders. The theme this year was "Out of Control", so we decided that literally herding cats would be a fun idea.
+[Herding Cats](https://github.com/esummers1/gmtk-game-jam-2020) is a browser game created for the [GMTK Game Jam 2020](https://itch.io/jam/gmtk-2020), a 48-hour game-making hackathon. I worked on this game as part of Team Cat Herders. The theme this year was "Out of Control", so we decided that literally herding cats would be a fun idea.
 
 [You can play the game here](https://danjb1.itch.io/herding-cats)! Please turn your sound on.
 
