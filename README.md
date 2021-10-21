@@ -11,9 +11,6 @@ Statically-generated website for [eddie-summers.com](https://eddie-summers.com).
 ## :running: Development Server
 
 ```bash
-hugo serve
-
-# Including drafts
 hugo serve -D
 ```
 
