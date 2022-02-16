@@ -4,7 +4,7 @@ title: "Networked Notes"
 summary: "How to structure information in a way that makes sense to you."
 type: "post"
 categories: ["Productivity"]
-series: "Being Organized"
+series: "Note-Taking"
 ---
 
 I have [written previously]({{< ref "/never-forget-anything.md" >}}) about how I have found VS Code and Markdown to be just the right way for me to take notes about things. To have claimed to have attained "note-taking perfection" was probably ambitious, but so far not actually wrong - what needs fixing next is access to the information in the notes.
