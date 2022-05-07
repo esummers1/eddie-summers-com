@@ -1,7 +1,7 @@
 ---
 date: 2022-05-07T08:00:00+00:00
 title: "AI Racing Driver"
-summary: ""
+summary: "MSc dissertation project, demonstrating an AI agent for driving in difficult conditions."
 categories: ["Projects", "Programming"]
 ---
 
