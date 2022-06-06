@@ -4,6 +4,7 @@ title: "Designing a Useful To-Do List"
 summary: "How best to avoid procrastination, and maximize the amount you actually get done."
 type: "post"
 categories: ["Productivity"]
+series: "To-Do System Design"
 ---
 
 Procrastination has had a significant impact on me at several points in my life. The most egregious example happened during my final year at university, on my undergrad degree in sport & exercise science. My dissertation - the write-up for my final-year project - was due in April, and I had had the whole academic year since October to work on it. However, at the start of April, all I had managed to do was the experimental trial itself - a simple study of the effect of a certain kind of warm-up drill on activation of the target muscles during subsequent exercise. I had done very little background research, and none of the write-up.
