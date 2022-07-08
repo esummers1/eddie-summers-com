@@ -35,7 +35,7 @@ Type-2 diabetes happens when the body becomes insensitive to insulin, i.e. becom
 
 ## Atrophy
 
-If you don't use something, it will be salvaged, to conserve resources. For example, unused muscles will shrink (muscular atrophy), unloaded bones will weaken (osteoporosis) an unused brain will become rigid and slow down (Alzheimer's).
+If you don't use something, it will be salvaged, to conserve resources. For example, unused muscles will shrink (muscular atrophy), unloaded bones will weaken (osteoporosis), and an unused brain will become rigid and slow down (Alzheimer's).
 
 The cost of inactivity-related atrophy is therefore much greater than just looking less muscular. They say that you don't stop moving when you get old; you get old when you stop moving. Here are some cross-section scans of the thighs of three different people:
 
