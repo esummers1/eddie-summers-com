@@ -1,0 +1,4 @@
+<!-- Yields the number of years since a date, passed as a Unix timestamp. -->
+<!-- It would be better if we could pass date literals, but I couldn't figure that out. -->
+{{ $secondsPerYear := 31536000 }}
+{{ div (sub now.Unix (.Get 0)) $secondsPerYear }}
