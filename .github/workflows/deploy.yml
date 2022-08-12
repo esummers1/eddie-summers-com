@@ -14,11 +14,11 @@ jobs:
       - name: Check out source
         uses: actions/checkout@v2
 
-      - name: Hugo setup
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.4.13
 
-      - name: Hugo build
-        run:  hugo
+      - name: Build with Hugo
+        run: hugo
 
       - name: Deploy to server
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
