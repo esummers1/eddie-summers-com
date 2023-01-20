@@ -1,6 +1,6 @@
 # Website
 
-![Deployment](https://github.com/esummers1/eddie-summers-com/workflows/Deployment/badge.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b86b9101-419d-499b-a4b3-7ce8112f5eea/deploy-status)](https://app.netlify.com/sites/eddie-summers-com/deploys)
 
 Statically-generated website for [eddie-summers.com](https://eddie-summers.com).
 
