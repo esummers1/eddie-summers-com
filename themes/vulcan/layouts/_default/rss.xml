@@ -3,13 +3,11 @@
 {{- $pctx := . -}}
 {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
 {{- $pages := slice -}}
-<!-- Do not include pages like About in the RSS feed -->
 {{- if or $.IsHome $.IsSection -}}
-{{- $pages = (where (where $pctx.RegularPages ".Section" "posts") "Kind" "page")  -}}
+{{- $pages = $pctx.RegularPages  -}}
 {{- else -}}
-{{- $pages = (where (where $pctx.Pages ".Section" "posts") "Kind" "page")  -}}
+{{- $pages = $pctx.Pages  -}}
 {{- end -}}
-<!-- End -->
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
