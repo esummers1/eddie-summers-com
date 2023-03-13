@@ -30,6 +30,9 @@
     <span class="social-links">
       <a href="{{.Site.Params.socialLinks.gitHub}}"><i class="fa fa-github-square"></i></a>
       <a href="{{.Site.Params.socialLinks.linkedIn}}"><i class="fa fa-linkedin-square"></i></a>
+      <a href="{{.Site.BaseURL}}/index.xml"><i class="fa fa-rss-square"></i></a>
+
+      <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL }}/index.xml" title="{{ .Site.Title }}">
     </span>
 
     <!-- Copyright message -->
