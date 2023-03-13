@@ -5,9 +5,9 @@
 {{- $pages := slice -}}
 <!-- Do not include pages like About in the RSS feed -->
 {{- if or $.IsHome $.IsSection -}}
-{{- $pages = (where (where $pctx.RegularPages "Params.hidden" false) "Kind" "page")  -}}
+{{- $pages = (where (where $pctx.RegularPages "Params.hidden" "==" nil) "Kind" "page")  -}}
 {{- else -}}
-{{- $pages = (where (where $pctx.Pages "Params.hidden" false) "Kind" "page")  -}}
+{{- $pages = (where (where $pctx.Pages "Params.hidden" "==" nil) "Kind" "page")  -}}
 {{- end -}}
 <!-- End -->
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
