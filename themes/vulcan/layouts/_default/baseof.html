@@ -14,8 +14,8 @@
   </main>
 
   <!-- Include Google Analytics -->
-  {{ if not .Site.IsServer }}
-    {{ template "_internal/google_analytics_async.html" . }}
+  {{ if not hugo.IsServer }}
+    {{ partial "google_analytics.html" . }}
   {{ end }}
 
 </body>
