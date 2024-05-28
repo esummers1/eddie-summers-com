@@ -13,11 +13,6 @@
     {{ block "main" . -}}{{- end }}
   </main>
 
-  <!-- Include Google Analytics -->
-  {{ if not .Site.IsServer }}
-    {{ template "_internal/google_analytics_async.html" . }}
-  {{ end }}
-
 </body>
 
 <!-- Close HTML tag opened by the header -->

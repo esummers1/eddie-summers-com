@@ -3,7 +3,6 @@ baseUrl: "https://eddie-summers.com/"
 languageCode: "en-uk"
 title: "Eddie Summers"
 theme: "vulcan"
-googleAnalytics: "UA-59854355-2"
 
 # Theme site params
 params:
