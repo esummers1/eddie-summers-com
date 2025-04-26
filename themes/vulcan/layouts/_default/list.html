@@ -2,12 +2,27 @@
   <!-- List view, for displaying a list of pages in a taxonomy. -->
 
   <!-- Title of _index file -->
-  <h1>{{ .Title }}</h1>
+  <h1 class="page-title">{{ .Title }}</h1>
 
   <!-- Contents of _index file -->
   {{ .Content }}
 
-  <ul class="posts">
+  <ul class="list">
+    <!-- Header row -->
+    <li>
+      <span class="list-row">
+        <b class="list-title">
+          Name
+        </b>
+
+        <b class="list-date">
+          Last Updated
+        </b>
+      </span>
+    </li>
+
+    <hr class="slim-rule" />
+
     {{ range .Data.Pages -}}
       <li>
         <span class="list-row">
