@@ -7,7 +7,7 @@ categories: ["Productivity"]
 series: "Note-Taking"
 ---
 
-I have [written previously]({{< ref "/never-forget-anything.md" >}}) about how I have found VS Code and Markdown to be just the right way for me to take notes about things. To have claimed to have attained "note-taking perfection" was probably ambitious, but so far not actually wrong - what needs fixing next is access to the information in the notes.
+I have [written previously]({{< ref "./never-forget-anything.md" >}}) about how I have found VS Code and Markdown to be just the right way for me to take notes about things. To have claimed to have attained "note-taking perfection" was probably ambitious, but so far not actually wrong - what needs fixing next is access to the information in the notes.
 
 If you take notes on a computer, they will probably be filed in some kind of directory structure. This is true in a symbolic sense for note-taking applications that organise notes into Notebooks and so on (e.g. Evernote, OneNote), and true in a more literal sense for the Markdown approach I advocated last time.
 

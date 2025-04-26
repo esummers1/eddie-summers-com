@@ -9,7 +9,7 @@ series: "To-Do System Design"
 
 >Fair warning: if you don't use [Todoist](https://todoist.com/app/), this may not be very helpful. The concepts discussed here can probably be applied to other task managers, but I make no guarantees!
 
-As I mentioned in [the previous article]({{< ref "/todo-system.md" >}} "the previous article"), one of the key design concepts for a helpful to-do system is the ability to hide tasks that aren't relevant right now. This is important for realizing the power a to-do system has for unblocking procrastination: if your workload feels manageable, you are much more able to manage doing it.
+As I mentioned in [the previous article]({{< ref "./todo-system.md" >}} "the previous article"), one of the key design concepts for a helpful to-do system is the ability to hide tasks that aren't relevant right now. This is important for realizing the power a to-do system has for unblocking procrastination: if your workload feels manageable, you are much more able to manage doing it.
 
 I alluded to the idea of using something like [Todoist filters](https://todoist.com/help/articles/introduction-to-filters) to create a view that presents you only the tasks you care about at the moment. This ability to define arbitrarily complex and detailed views is for me the killer Todoist feature.
 
