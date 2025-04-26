@@ -35,8 +35,7 @@ html {
   }
 }
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
 }
@@ -59,12 +58,7 @@ body {
  * Semantic Overrides
  ******************************************************************************/
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
   font-weight: bold;
   line-height: 1.25;
@@ -86,9 +80,7 @@ h3 {
   font-size: 1.2rem;
 }
 
-h4,
-h5,
-h6 {
+h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
 }
@@ -106,8 +98,7 @@ a {
   text-decoration: none;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
   text-decoration: underline;
 }
 
@@ -137,9 +128,7 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
-ul,
-ol,
-dl {
+ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -161,8 +150,7 @@ table {
   border-collapse: collapse;
 }
 
-td,
-th {
+td, th {
   padding: 0.25rem 0.5rem;
   border: 1px solid var(--border-color);
 }
@@ -172,8 +160,7 @@ tbody tr:nth-child(odd) th {
   background-color: var(--background-color);
 }
 
-code,
-pre {
+code, pre {
   font-family: var(--code-font), monospace;
 }
 
@@ -244,19 +231,15 @@ pre code {
   font-weight: 300;
 }
 
-.page,
-.post {
+.page, .post {
   margin-bottom: 2em;
 }
 
-.page-title,
-.post-title,
-.post-title a {
+.page-title, .post-title, .post-title a {
   color: #303030;
 }
 
-.page-title,
-.post-title {
+.page-title, .post-title {
   margin-top: 0;
   font-family: var(--special-font), sans-serif;
 }
@@ -268,8 +251,7 @@ pre code {
   color: var(--faint-font-color);
 }
 
-.content a,
-.related-posts li a:hover {
+.content a, .related-posts li a:hover {
   color: var(--theme-color-bright);
   font-weight: bold;
 }
