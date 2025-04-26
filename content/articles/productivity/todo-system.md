@@ -19,7 +19,7 @@ In the years since then, I've done a reasonable job of curing this behaviour in 
 
 The classic idea of a to-do list is just a list of things you need to do, on paper. You can develop this idea by having separate lists for different projects, or work contexts, or any number of other different ways. Much has been said about this topic, so I'm just going to focus on things that have helped me.
 
-The most important benefit of the to-do list is strongly related to the need for [note-taking]({{< ref "never-forget-anything.md" >}}): the fact that the brain is for thinking, not for remembering. As long as something you want to remember exists only in your head, it's at risk.
+The most important benefit of the to-do list is strongly related to the need for [note-taking]({{< ref "./never-forget-anything.md" >}}): the fact that the brain is for thinking, not for remembering. As long as something you want to remember exists only in your head, it's at risk.
 
 ## Ingress
 
